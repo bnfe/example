@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "corejs": 3, //新版本需要指定核心库版本
+        "useBuiltIns": "usage" //按需注入
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "version": "legacy" }],
+    "@babel/plugin-transform-class-properties"
+    // [
+    //   "import",
+    //   {
+    //     "libraryName": "vant",
+    //     "libraryDirectory": "es",
+    //     "style": true
+    //   },
+    //   "vant"
+    // ]
+  ],
+  "sourceType": "unambiguous"
+}

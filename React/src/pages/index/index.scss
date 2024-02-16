@@ -1,0 +1,33 @@
+.index {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 24px;
+
+    p {
+        width: 400px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        background-color: #dfdfdf;
+    }
+
+    .path {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            @extend p;
+        }
+
+        p {
+            width: 120px;
+        }
+    }
+}
