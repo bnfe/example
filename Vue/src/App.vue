@@ -1,9 +1,9 @@
 <template>
   <div v-cloak>
     <keep-alive>
-      <router-view v-if="$route.meta.keepAlive" v-wechat-title="$route.meta.title" />
+      <router-view v-if="$route.meta.keepAlive" />
     </keep-alive>
-    <router-view v-if="!$route.meta.keepAlive" v-wechat-title="$route.meta.title" />
+    <router-view v-if="!$route.meta.keepAlive" />
   </div>
 </template>
 <script>

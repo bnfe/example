@@ -8,8 +8,6 @@ Vue.use(Vant);
 // 移动端引入amfe-flexible依赖，并在postcss.config.js中打开相关插件
 import "amfe-flexible";
 
-Vue.use(require("vue-wechat-title"));
-
 import { version as DEV_VER } from "~/package.json";
 console.table({
   BASE_URL: process.env.BASE_URL,

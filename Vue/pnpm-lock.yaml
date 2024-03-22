@@ -133,9 +133,6 @@ devDependencies:
   vue-template-compiler:
     specifier: ^2.6.14
     version: 2.7.16
-  vue-wechat-title:
-    specifier: ^2.0.7
-    version: 2.0.7
   webpack:
     specifier: ^4.46.0
     version: 4.47.0(webpack-cli@4.10.0)
@@ -8183,10 +8180,6 @@ packages:
 
   /vue-template-es2015-compiler@1.9.1:
     resolution: {integrity: sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==}
-    dev: true
-
-  /vue-wechat-title@2.0.7:
-    resolution: {integrity: sha512-qNkb56AWFHjOoGfW4lkstS4GC2W4YqVJYfnIUM73b/CBpMSOvcWSqtmb8ANa9owTKJr2dmBRmQV5K5YwrzbC5A==}
     dev: true
 
   /vue@2.7.16:
